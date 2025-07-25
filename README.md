@@ -1,8 +1,8 @@
-# UI Kit React 🚀
+# React UI Kits 🚀
 
 A modern, lightweight React UI components library built with **TailwindCSS** and **TypeScript**. Designed for rapid development with beautiful, consistent, and accessible components.
 
-[![npm version](https://badge.fury.io/js/ui-kit-react-nguyenbao.svg)](https://badge.fury.io/js/ui-kit-react-nguyenbao)
+[![npm version](https://badge.fury.io/js/react-ui-kits.svg)](https://badge.fury.io/js/react-ui-kits)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## ✨ Features
@@ -17,7 +17,7 @@ A modern, lightweight React UI components library built with **TailwindCSS** and
 ## 📦 Installation
 
 ```bash
-npm install ui-kit-react-nguyenbao
+npm install react-ui-kits
 ```
 
 ### Peer Dependencies
@@ -31,7 +31,7 @@ npm install react react-dom
 ## 🚀 Quick Start
 
 ```jsx
-import { Button } from "ui-kit-react-nguyenbao";
+import { Button } from "react-ui-kits";
 
 function App() {
   return (
@@ -62,7 +62,7 @@ A versatile button component with multiple variants, sizes, and states built wit
 #### Basic Usage
 
 ```jsx
-import { Button } from "ui-kit-react-nguyenbao";
+import { Button } from "react-ui-kits";
 
 function MyComponent() {
   const handleClick = () => {
