@@ -6,7 +6,7 @@ import './styles/global.css'
 function App() {
   return (
     <div className="p-8 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-8 text-center">React UI Kits - Button Component</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">React Kit US ABC - Button Component</h1>
       
       {/* Variants */}
       <section className="mb-8">

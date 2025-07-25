@@ -22,7 +22,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/index.ts",
-      name: "ReactUIKits",
+      name: "ReactKitUSABC",
       fileName: (format) => {
         if (format === "es") return "index.js"; // ES modules → index.js
         if (format === "cjs") return "index.cjs.js";
