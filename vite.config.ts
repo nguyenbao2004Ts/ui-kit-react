@@ -23,7 +23,12 @@ export default defineConfig({
     lib: {
       entry: "src/index.ts",
       name: "UIKitReact",
-      fileName: (format) => `index.${format}.js`,
+      fileName: (format) => {
+        if (format === "es") return "index.js"; // ES modules → index.js
+        if (format === "cjs") return "index.cjs.js";
+        if (format === "umd") return "index.umd.js";
+        return `index.${format}.js`;
+      },
       formats: ["es", "umd", "cjs"],
     },
     rollupOptions: {
