@@ -5,7 +5,7 @@ React UI components library built with TailwindCSS.
 ## Installation
 
 ```bash
-npm install ui-kit-react
+npm install @nguyenbaots/ui-kit-react
 ```
 
 ## Usage
