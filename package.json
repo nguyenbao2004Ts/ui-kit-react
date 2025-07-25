@@ -1,6 +1,6 @@
 {
   "name": "ui-kit-react-nguyenbao",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "A beautiful, customizable React Button component built with TailwindCSS and TypeScript",
   "main": "dist/index.cjs.js",
