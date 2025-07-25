@@ -221,6 +221,27 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
+Sửa file tailwind.config.js:
+/** @type {import('tailwindcss').Config} \*/
+module.exports = {
+content: [
+"./src/**/_.{js,jsx,ts,tsx}",
+"./node_modules/react-kit-us-abc/\*\*/_.{js,jsx,ts,tsx}"
+],
+theme: {
+extend: {},
+},
+plugins: [],
+}
+
+Trong file index.css hoặc src/App.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Trong index.tsx:
+import './index.css';
+
 ## 🛠️ Development
 
 ### Local Development
