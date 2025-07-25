@@ -5,13 +5,13 @@ React UI components library built with TailwindCSS.
 ## Installation
 
 ```bash
-npm install @nguyenbaots/ui-kit-react
+npm install /ui-kit-react-nguyenbao
 ```
 
 ## Usage
 
 ```jsx
-import { Button } from "ui-kit-react";
+import { Button } from "ui-kit-react-nguyenbao";
 
 function App() {
   return <Button onClick={() => alert("Hello!")}>Click me</Button>;
