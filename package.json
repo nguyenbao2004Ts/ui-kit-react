@@ -30,7 +30,7 @@
     "tailwindcss": "^4.1.11"
   },
 
-  "keywords": ["react", "ui", "components", "tailwind", "design-system", "library"],
+  "keywords": ["react", "ui", "components", "tailwind", "design-system", "library, ui-kit-react"],
   "author": "Nguyen Bao <giabao2004ts@gmail.com>",
   "license": "MIT",
   "repository": {
